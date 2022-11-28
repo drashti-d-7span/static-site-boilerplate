@@ -795,13 +795,12 @@ a.navbar-link:hover {
   padding: 50px 0 50px;
 }
 
+.footer--logo {
+  margin-left: 20px;
+}
 .footer--logo img {
   width: 6%;
   height: auto;
-}
-
-.footer--logo {
-  margin-left: 20px;
 }
 
 .footer--wrap {
@@ -829,17 +828,17 @@ a.navbar-link:hover {
 }
 
 .fa-instagram:before {
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
 }
 
 .fa-facebook:before {
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
 }
 
 .fa-twitter:before {
-  color: white;
+  color: #FFFFFF;
   font-size: 18px;
 }
 
@@ -852,6 +851,40 @@ a.navbar-link:hover {
   font-size: 20px;
   line-height: 160%;
   color: #FFFFFF;
+}
+
+.footer--wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.footer--list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  display: block;
+}
+
+.footer--right {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 0 0 60%;
+}
+
+.footer--items a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #D9DBE1;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.footer--left {
+  flex: 0 0 40%;
 }
 
 /* popup Model Css */
