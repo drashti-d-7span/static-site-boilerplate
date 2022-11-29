@@ -860,6 +860,23 @@ ul.footer--list {
   flex-grow: 0;
 }
 
+.footer--text h3 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.footer--text p {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+  color: #FFFFFF;
+  margin: 0;
+  padding-top: 10px;
+}
+
 /* popup Model Css */
 .modal {
   position: absolute;
