@@ -742,13 +742,6 @@ a.navbar-link:hover {
   padding: 124px 0 50px;
 }
 
-.online--images img {
-  width: 78%;
-  height: auto;
-  position: absolute;
-  top: -50px;
-}
-
 .online {
   display: flex;
   background: #D92F27;
@@ -758,12 +751,6 @@ a.navbar-link:hover {
 .online--left {
   flex: 0 0 50%;
   padding: 43px;
-}
-
-.online--right {
-  flex: 0 0 50%;
-  position: relative;
-  padding: 40px;
 }
 
 .online--title h3 {
@@ -789,14 +776,33 @@ a.navbar-link:hover {
   padding-top: 24px;
 }
 
+.online--images img {
+  width: 90%;
+  height: auto;
+}
+
+.online--right {
+  flex: 0 0 50%;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  z-index: 999;
+}
+
+.online--images {
+  position: absolute;
+  top: -40px;
+  z-index: -1;
+}
+
 /* footer */
 .footer {
   background: #0B0D17;
-  padding: 50px 0 50px;
+  padding: 50px 0 34px;
 }
 
 .footer--logo img {
-  width: 40px;
+  width: 50px;
   height: auto;
 }
 
@@ -875,6 +881,96 @@ ul.footer--list {
   color: #FFFFFF;
   margin: 0;
   padding-top: 10px;
+  max-width: 70%;
+}
+
+.footer--wrapper {
+  flex: 0 0 40%;
+}
+
+.footer--lists {
+  flex: 0 0 15%;
+}
+
+.footer--tips {
+  flex: 0 0 30%;
+  margin-left: 20px;
+}
+
+li.footer--items {
+  padding-bottom: 12px;
+}
+
+li.footer--items-1 {
+  padding-bottom: 22px;
+}
+
+input {
+  padding: 10px 100px 10px 12px;
+  border: none;
+  font-size: 14px;
+  display: block;
+  font-weight: 400;
+  line-height: 160%;
+  color: #D9DBE1;
+  background: #1D2225;
+  opacity: 0.9;
+  border-radius: 8px;
+}
+
+.footer--images img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.footer--input {
+  position: relative;
+  padding-top: 20px;
+}
+
+.footer--images {
+  position: absolute;
+  right: 80px;
+  top: 32px;
+}
+
+.footer--google img {
+  width: 100px;
+  height: auto;
+}
+
+.footer--review {
+  width: 100px;
+  height: auto;
+}
+
+.footer--img {
+  display: flex;
+  align-items: center;
+  padding-top: 18px;
+}
+
+.footer--line {
+  width: 100%;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+  margin: 40px 0 0 6px;
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+}
+
+.footer--copyright {
+  display: flex;
+  align-items: center;
+}
+
+.footer--copyright p {
+  margin: 0;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 160%;
+  color: #D9DBE1;
+  padding-top: 18px;
 }
 
 /* popup Model Css */
