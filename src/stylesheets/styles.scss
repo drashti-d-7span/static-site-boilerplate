@@ -1132,7 +1132,6 @@ input[type="text-1"] {
 
 
 
-
 @media screen and (max-width:959px){
     .contact--number {
         font-size: 12px;
@@ -1742,4 +1741,115 @@ input[type="text-1"] {
         max-width: 80%;
     }
     
+}
+
+
+
+
+
+
+
+@media screen and (max-width:359px){
+    .contact--icon {
+        margin-left: 12px;
+    }
+    a.navbar-link {
+        font-size: 10px;
+        padding: 0 8px 0 0 ;
+    }
+    .btn-small {
+        margin-left: 0;
+    }
+    .cover--vector img {
+        left: 214px;
+        top: -30px;
+        width: 36%;
+        height: auto;
+    }
+    .cover--title h1 {
+        font-size: 26px;
+    }
+    .cover--text p {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+    .review--card {
+        flex: 0 0 100%;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    .fitness--vector img {
+        width: 40%;
+    }
+    .fitness--vector {
+        left: -14px;
+        top: 10px;
+    }
+    .fitness--images img {
+        max-width: 90%;
+    }
+    .our_body--heading h2 {
+        font-size: 14px;
+        padding: 0 20px 0 20px;
+    }
+    .our_body--vector img {
+        width: 50%;
+    }
+    .our_body--card {
+        flex: 0 0 100%;
+    }
+    .our_body--vector {
+        right: 0 ;
+    }
+    .our_body--text p {
+        font-size: 9px;
+        padding-top: 6px;
+    }
+    .our_body--wrap {
+        padding: 20px;
+    }
+    .our_results--heading h2 {
+        padding: 0 50px 0 50px;
+    }
+    .swiper-wrapper {
+        padding: 14px 0 40px;
+    }
+    .results--button {
+        padding-top: 20px;
+    }
+    .our_program--left {
+        flex: 0 0 100%;
+    }
+    .our_program--right {
+        flex: 0 0 100%;
+    }
+    .our_program {
+        flex-wrap: wrap;
+    }
+    .our_program--images {
+        bottom: -226px;
+    }
+    .blog--card {
+        flex: 0 0 100%;
+    }
+    .header--logo img {
+        width: 60%;
+        height: auto;
+    }
+    .footer--wrapper {
+        flex: 0 0 100%;
+    }
+    .footer--lists {
+        flex: 0 0 50%;
+        padding-top: 20px;
+    }
+    .footer--tips {
+        flex: 0 0 50%;
+        padding-top: 20px;
+        margin-left: 0 ;
+    }
+    .footer--wrap {
+        justify-content: center;
+    }
 }
