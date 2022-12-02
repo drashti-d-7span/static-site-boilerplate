@@ -483,6 +483,11 @@ a.navbar-link:hover {
 
 .results--images {
   margin-right: 20px;
+  text-align: center;
+}
+.results--images img {
+  width: 50%;
+  height: auto;
 }
 
 .results--content {
@@ -776,11 +781,6 @@ a.navbar-link:hover {
   padding-top: 24px;
 }
 
-.online--images img {
-  width: 90%;
-  height: auto;
-}
-
 .online--right {
   flex: 0 0 50%;
   padding: 40px;
@@ -794,16 +794,15 @@ a.navbar-link:hover {
   top: -40px;
   z-index: -1;
 }
+.online--images img {
+  width: 90%;
+  height: auto;
+}
 
 /* footer */
 .footer {
   background: #0B0D17;
   padding: 50px 0 34px;
-}
-
-.footer--logo img {
-  width: 50px;
-  height: auto;
 }
 
 .footer--inerwrap {
@@ -815,11 +814,15 @@ a.navbar-link:hover {
 .footer--logo {
   margin-left: 20px;
 }
+.footer--logo img {
+  width: 50px;
+  height: auto;
+}
 
 .footer--icon {
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #FFFFFF;
   padding-top: 20px;
 }
 
@@ -918,12 +921,6 @@ input {
   border-radius: 8px;
 }
 
-.footer--images img {
-  width: 16px;
-  height: 16px;
-  cursor: pointer;
-}
-
 .footer--input {
   position: relative;
   padding-top: 20px;
@@ -933,6 +930,11 @@ input {
   position: absolute;
   right: 80px;
   top: 32px;
+}
+.footer--images img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
 }
 
 .footer--google img {
@@ -963,7 +965,6 @@ input {
   display: flex;
   align-items: center;
 }
-
 .footer--copyright p {
   margin: 0;
   font-weight: 400;
@@ -1122,4 +1123,637 @@ input[type=text-1] {
   font-size: 16px;
   display: block;
   background: #FFFFFF;
+}
+
+/* // responsive css // */
+@media screen and (max-width: 1023px) {
+  .cover--vector img {
+    left: -2px;
+    top: -76px;
+  }
+  .section--review {
+    padding: 20px;
+  }
+  .review--wrapper {
+    gap: 10px;
+  }
+  .review--numbers span {
+    font-size: 40px;
+    line-height: 120%;
+  }
+  .review--text p {
+    line-height: 130%;
+    padding-top: 20px;
+  }
+  .review--title h4 {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  input {
+    padding: 10px 46px 10px 12px;
+    font-size: 14px;
+  }
+  .footer--line {
+    width: 98%;
+    margin: 30px 0 0 6px;
+  }
+  .our_body--vector {
+    right: -18px;
+    top: -6px;
+  }
+  .our_body--vector img {
+    width: 90%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .our_body--vector {
+    right: -8px;
+  }
+}
+@media screen and (max-width: 959px) {
+  .contact--number {
+    font-size: 12px;
+    line-height: 100%;
+    margin-left: 8px;
+  }
+  .contact--number p {
+    font-size: 12px;
+    line-height: 100%;
+    margin-right: 18px;
+  }
+  .btn-lg {
+    font-size: 14px;
+    line-height: 100%;
+  }
+  .cover--title h1 {
+    font-size: 50px;
+    line-height: 130%;
+    padding-top: 14px;
+  }
+  .cover--vector img {
+    left: -6px;
+    top: -68px;
+  }
+  .cover--text p {
+    font-size: 18px;
+    line-height: 140%;
+    padding-top: 14px;
+  }
+  .btn-solid {
+    padding: 6px 30px;
+    font-size: 14px;
+  }
+  .review--numbers span {
+    font-size: 30px;
+    line-height: 100%;
+  }
+  .review--title h4 {
+    font-size: 12px;
+    line-height: 160%;
+  }
+  .review--text p {
+    line-height: 122%;
+    padding-top: 16px;
+    font-size: 10px;
+  }
+  .review--wrapper {
+    gap: 4px;
+  }
+  h2 {
+    font-size: 34px;
+    line-height: 120%;
+  }
+  .fitness--vector img {
+    width: 70%;
+    height: auto;
+  }
+  .fitness--vector {
+    left: -30px;
+    top: 0px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 150%;
+  }
+  .our_body--heading h2 {
+    font-size: 30px;
+    line-height: 130%;
+  }
+  .our_body--images img {
+    width: 60px;
+  }
+  .our_body--title h3 {
+    font-size: 14px;
+    line-height: 160%;
+    padding-top: 18px;
+  }
+  .our_body--vector img {
+    width: 70%;
+    height: auto;
+  }
+  .our_body--text p {
+    font-size: 12px;
+    line-height: 160%;
+    padding-top: 10px;
+  }
+  .our_body--wrap {
+    padding: 28px;
+  }
+  .our_results--heading h2 {
+    font-size: 30px;
+    line-height: 122%;
+  }
+  .swiper .swiper-button-prev {
+    top: 94%;
+  }
+  .swiper .swiper-button-next {
+    top: 94%;
+  }
+  .our_program--title h2 {
+    font-size: 30px;
+    line-height: 126%;
+  }
+  .our_program--text p {
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 16px;
+  }
+  .swiper-wrapper {
+    padding: 13px 0 63px;
+  }
+  .blog--heading h2 {
+    font-size: 32px;
+    line-height: 100%;
+    padding-top: 40px;
+  }
+  .blog--subtitle h3 {
+    font-size: 14px;
+    line-height: 130%;
+  }
+  .blog--content p {
+    font-size: 14px;
+    line-height: 130%;
+    padding-top: 10px;
+  }
+  .blog--text h5 {
+    font-size: 14px;
+    line-height: 160%;
+    padding-top: 10px;
+  }
+  .online--left {
+    padding: 30px;
+  }
+  .online--text p {
+    font-size: 12px;
+    line-height: 130%;
+  }
+  .footer--items a {
+    font-size: 14px;
+    line-height: 90%;
+  }
+  li.footer--items {
+    padding-bottom: 8px;
+  }
+  .footer--items-1 a {
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 140%;
+  }
+  .footer--text h3 {
+    font-size: 18px;
+    line-height: 130%;
+  }
+  .footer--text p {
+    font-size: 10px;
+    line-height: 160%;
+    padding-top: 10px;
+    max-width: 60%;
+  }
+  .section--cover {
+    padding: 40px 0 70px 0;
+  }
+  .section--fitness {
+    padding-top: 90px;
+  }
+  .section--trainer {
+    padding-top: 60px;
+  }
+  .section--our_body {
+    padding: 70px 0 0 0;
+  }
+  .section--our_client {
+    padding: 90px 0 50px;
+  }
+  .section--online {
+    padding: 80px 0 50px;
+  }
+  .section--blog {
+    padding-bottom: 100px;
+  }
+}
+@media screen and (max-width: 819px) {
+  a.navbar-link {
+    font-size: 14px;
+  }
+  .cover--title h1 {
+    font-size: 46px;
+    line-height: 120%;
+  }
+  .cover--vector img {
+    left: -8px;
+    top: -64px;
+  }
+  .cover--text p {
+    font-size: 14px;
+  }
+  .btn-small {
+    padding: 10px 24px;
+    font-size: 12px;
+    line-height: 120%;
+    margin-left: 20px;
+  }
+  .btn-solid {
+    padding: 6px 20px;
+    font-size: 12px;
+  }
+  .review--numbers span {
+    font-size: 24px;
+    line-height: 80%;
+  }
+  .review--title h4 {
+    font-size: 10px;
+    line-height: 130%;
+  }
+  .review--text p {
+    line-height: 110%;
+    padding-top: 14px;
+  }
+  .section--fitness {
+    padding-top: 30px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 110%;
+  }
+  .section--trainer {
+    padding-top: 20px;
+  }
+  .trainer--images img {
+    padding-top: 0;
+  }
+  .our_body--heading h2 {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  .our_body--images img {
+    width: 40px;
+  }
+  .our_results--heading h2 {
+    font-size: 26px;
+    line-height: 120%;
+  }
+  .section--our_results {
+    padding: 50px 0 90px;
+  }
+  .results--images img {
+    width: 60%;
+    height: auto;
+  }
+  .results--images {
+    text-align: center;
+    margin: 0;
+  }
+  .our_program--title h2 {
+    font-size: 24px;
+    line-height: 110%;
+  }
+  .our_program--text p {
+    font-size: 13px;
+  }
+  .section--our_client {
+    padding: 60px 0 40px;
+  }
+  .blog--heading h2 {
+    font-size: 28px;
+  }
+  .blog--subtitle h3 {
+    font-size: 13px;
+    line-height: 120%;
+  }
+  .blog--date span {
+    font-size: 10px;
+    line-height: 70%;
+  }
+  .blog--content p {
+    font-size: 12px;
+    line-height: 110%;
+    padding-top: 8px;
+  }
+  .blog--text h5 {
+    font-size: 12px;
+    line-height: 90%;
+    padding-top: 8px;
+  }
+  .online--title h3 {
+    font-size: 18px;
+    line-height: 120%;
+    padding-top: 30px;
+  }
+  input {
+    padding: 10px 14px 10px 12px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  a.navbar-link {
+    font-size: 12px;
+  }
+  .btn-small {
+    font-size: 10px;
+    line-height: 100%;
+  }
+  .btn-lg {
+    font-size: 12px;
+    line-height: 90%;
+  }
+  .contact--number p {
+    font-size: 10px;
+    margin-right: 14px;
+  }
+  .contact--number {
+    font-size: 10px;
+    margin-left: 8px;
+  }
+  .btn-lg {
+    font-size: 10px;
+    line-height: 80%;
+    padding: 10px 10px;
+  }
+  .cover--wrapper {
+    flex-wrap: wrap;
+  }
+  .cover--left {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-top: 30px;
+  }
+  .cover--right {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .btn-solid {
+    padding: 8px 16px;
+    font-size: 10px;
+    line-height: 150%;
+  }
+  .review--numbers span {
+    font-size: 20px;
+    line-height: 60%;
+  }
+  .review--title h4 {
+    font-size: 8px;
+    line-height: 100%;
+  }
+  .review--text p {
+    line-height: 120%;
+    padding-top: 12px;
+  }
+  .review--wrapper {
+    flex-wrap: wrap;
+  }
+  .review--card {
+    flex: 0 0 40%;
+    padding: 10px;
+  }
+  .fitness__left {
+    flex: 0 0 100%;
+  }
+  .fitness__right {
+    flex: 0 0 100%;
+  }
+  p {
+    font-size: 12px;
+    line-height: 140%;
+  }
+  .trainer {
+    flex-direction: column-reverse;
+  }
+  .trainer__left {
+    flex: 0 0 100%;
+  }
+  .trainer__right {
+    flex: 0 0 100%;
+    padding: 30px;
+  }
+  .our_body--heading h2 {
+    font-size: 22px;
+    line-height: 120%;
+  }
+  .our_body--images img {
+    width: 36px;
+  }
+  .our_body--title h3 {
+    font-size: 12px;
+    line-height: 120%;
+    padding-top: 14px;
+  }
+  .our_body--text p {
+    font-size: 10px;
+    line-height: 140%;
+    padding-top: 8px;
+  }
+  .our_results--heading h2 {
+    font-size: 22px;
+    line-height: 110%;
+  }
+  .our_program--title h2 {
+    font-size: 20px;
+    line-height: 100%;
+  }
+  .our_program--right {
+    padding: 20px;
+  }
+  .our_program--images {
+    bottom: 60px;
+  }
+  .our_results--heading h2 {
+    font-size: 20px;
+    line-height: 120%;
+  }
+  .our_client--content p {
+    font-size: 14px;
+    line-height: 140%;
+    padding-top: 10px;
+  }
+  .online--title h3 {
+    font-size: 16px;
+    line-height: 100%;
+    padding-top: 20px;
+  }
+  .online--text p {
+    font-size: 9px;
+  }
+  .footer--logo img {
+    width: 30px;
+  }
+  .footer--icon {
+    padding-top: 10px;
+  }
+  .fa-instagram:before {
+    font-size: 12px;
+  }
+  .fa-facebook-f:before {
+    font-size: 12px;
+  }
+  .fa-twitter:before {
+    font-size: 12px;
+  }
+  .footer--wrap {
+    flex-wrap: wrap;
+  }
+  .footer--lists {
+    flex: 0 0 30%;
+  }
+  .footer--images {
+    right: 54px;
+    top: 30px;
+  }
+  .footer--copyright p {
+    font-size: 10px;
+    line-height: 80%;
+    padding-top: 14px;
+  }
+  .footer--line {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 639px) {
+  .cover--title h1 {
+    font-size: 34px;
+    line-height: 90%;
+  }
+  .cover--vector img {
+    left: 447px;
+    top: -41px;
+    width: 26%;
+    height: auto;
+  }
+  .cover--text p {
+    font-size: 12px;
+  }
+  .btn-solid {
+    line-height: 120%;
+  }
+  h2 {
+    font-size: 26px;
+    line-height: 100%;
+  }
+  p {
+    font-size: 10px;
+    line-height: 130%;
+  }
+  .our_body--images img {
+    width: 30px;
+  }
+  .our_body--card {
+    flex: 0 0 50%;
+    padding: 10px;
+  }
+  .our_results--heading h2 {
+    font-size: 14px;
+  }
+  .results--images img {
+    width: 50%;
+  }
+  .our_program--title h2 {
+    font-size: 16px;
+  }
+  .our_program--text p {
+    font-size: 10px;
+  }
+  .our_program--images {
+    bottom: 56px;
+  }
+  .our_results--heading h2 {
+    font-size: 12px;
+  }
+  .our_client--content p {
+    font-size: 10px;
+    padding-top: 6px;
+  }
+  .our_client--name h3 {
+    font-size: 12px;
+    line-height: 90%;
+    padding-top: 14px;
+  }
+  .our_client--text p {
+    font-size: 10px;
+  }
+  .swiper-wrapper {
+    padding: 13px 0 20px;
+  }
+  .blog--heading h2 {
+    font-size: 20px;
+    line-height: 50%;
+    padding-top: 30px;
+  }
+  .blog--card {
+    flex: 0 0 48%;
+    padding: 14px;
+  }
+  .online--title h3 {
+    font-size: 14px;
+    padding-top: 6px;
+  }
+  .footer--items-1 a {
+    font-size: 16px;
+    line-height: 110%;
+  }
+  .footer--items a {
+    font-size: 12px;
+    line-height: 90%;
+  }
+  li.footer--items {
+    padding-bottom: 0px;
+  }
+  .footer--text h3 {
+    font-size: 16px;
+  }
+  .footer--text p {
+    font-size: 10px;
+    max-width: 80%;
+  }
+  .footer--images img {
+    width: 14px;
+    height: 14px;
+  }
+  input {
+    padding: 10px 60px 10px 10px;
+    font-size: 12px;
+  }
+  .footer--images {
+    right: 14px;
+  }
+  .footer--copyright p {
+    font-size: 9px;
+  }
+  .section--online {
+    padding: 40px 0 40px;
+  }
+  .section--our_results {
+    padding: 50px 0 70px;
+  }
+  .our_body--heading h2 {
+    font-size: 15px;
+  }
+  .our_body--inerwrap {
+    padding-top: 16px;
+  }
+  .trainer {
+    flex-direction: column-reverse;
+  }
+  .fitness--images img {
+    max-width: 80%;
+  }
 }/*# sourceMappingURL=styles.css.map */
